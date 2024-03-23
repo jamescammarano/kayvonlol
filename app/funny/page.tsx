@@ -10,8 +10,8 @@ export default function Funny() {
         <h1 className="text-[10rem]">💸</h1>
       </div>
       <h1 className="text-2xl text-center ms:px-48  md:px-64">
-        Kayvon uses humor to explore and push social boundaries and one's own
-        discomfort.
+        Kayvon uses humor to explore and push social boundaries and one&apos;s
+        own discomfort.
       </h1>
       <div className="grid gap-4 grid-cols-1">
         <video width="600" height="900" controls preload="none">

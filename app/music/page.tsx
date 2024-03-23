@@ -14,6 +14,7 @@ export default function Home() {
       </h1>
       <div className="flex mb-20 grid-cols-2 gap-4 justify-center">
         <iframe
+          title="Bandcamp"
           className="border-0 w-[20rem] h-[20rem]"
           src="https://bandcamp.com/EmbeddedPlayer/album=866069903/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
           seamless

@@ -10,8 +10,8 @@ export default function Terrorable() {
         <h1 className="text-[10rem]">💣</h1>
       </div>
       <h1 className="text-2xl text-center sm:px-48 md:px-64">
-        Kayvon isn't afraid to make a splash with his art, even if that means
-        going to jail.
+        Kayvon isn&apos;t afraid to make a splash with his art, even if that
+        means going to jail.
       </h1>
       <div className="grid gap-4 grid-cols-1">
         <iframe
