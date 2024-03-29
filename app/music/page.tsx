@@ -2,16 +2,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center py-10">
+    <main className="flex flex-col items-center text-center justify-center mx-10">
       <div className="text-4xl">
         <Link href={"/"}>⬅️ kavon.lol</Link>
       </div>
-      <div className="pt-3 pb-8">
-        <h1 className="text-[10rem]">🎷</h1>
+      <div className="pt-3 md:pb-8">
+        <h1 className="text-[6rem] md:text-[10rem]">🎷</h1>
+
+        <h1 className="text-2xl text-center pb-8 sm:px-48 md:px-64">
+          Kayvon makes poems, and music too.
+        </h1>
       </div>
-      <h1 className="text-2xl text-center ms:px-48 md:px-64 pb-10">
-        Kayvon makes poems, and music too.
-      </h1>
       <div className="flex mb-20 grid-cols-2 gap-4 justify-center">
         <iframe
           title="Bandcamp"

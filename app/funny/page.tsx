@@ -2,25 +2,33 @@ import Link from "next/link";
 
 export default function Funny() {
   return (
-    <main className="flex flex-col items-center justify-center py-10">
+    <main className="flex flex-col items-center text-center justify-center mx-10">
       <div className="text-4xl">
         <Link href={"/"}>⬅️ kavon.lol</Link>
       </div>
-      <div className="pt-3 pb-8">
-        <h1 className="text-[10rem]">💸</h1>
+      <div className="pt-3 md:pb-8">
+        <h1 className="text-[6rem] md:text-[10rem]">💸</h1>
       </div>
-      <h1 className="text-2xl text-center ms:px-48  md:px-64">
+      <h1 className="text-2xl text-center pb-8 sm:px-48 md:px-64">
         Kayvon uses humor to explore and push social boundaries and one&apos;s
         own discomfort.
       </h1>
-      <div className="grid gap-4 grid-cols-1">
-        <video width="600" height="900" controls preload="none">
+      <div className="flex flex-col items-center gap-4 m-4">
+        <video className="h-[500px] object-cover" controls preload="none">
           <source src="/videos/coolgrandma.mp4" type="video/mp4" />
         </video>
-        <video width="320" height="240" controls preload="none">
+        <video
+          className="w-[300px] h-[500px] object-cover"
+          controls
+          preload="none"
+        >
           <source src="/videos/pinatajiji.mp4" type="video/mp4" />
         </video>
-        <video width="320" height="240" controls preload="none">
+        <video
+          className="w-[300px] h-[500px] object-cover"
+          controls
+          preload="none"
+        >
           <source src="/videos/who.mp4" type="video/mp4" />
         </video>
       </div>

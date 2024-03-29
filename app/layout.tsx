@@ -22,9 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-[#F1EFEF]  ${inter.className}`}>
+      <body className={`pt-10 pb-16 md:py-10 ${inter.className}`}>
         {children}
-        <div className="border-t-2 bg-[#F1EFEF] fixed w-full bottom-0 border-t-gray-200">
+        <div className="border-t-2 bg-[#FFFAFA] fixed w-full bottom-0 border-t-gray-200">
           <div className="my-2 grid grid-flow-col justify-items-center justify-evenly grid-cols-3">
             <a href="https://www.instagram.com/kayvonedson/">
               <Image alt="Instagram" className="h-8 w-8" src={instagram} />
