@@ -10,7 +10,7 @@ export default function Home() {
       <div className="hidden md: md:block pt-3">
         <h1 className="text-[6rem] md:text-[10rem]">📕</h1>
       </div>
-      <div className="pb-8 md:flex items-center m-10 text-xl md:text-2xl">
+      <div className="pb-8 md:flex justify-center items-center m-10 text-xl md:text-2xl">
         <div className="pb-10 md:w-1/2 md:pb-0 md:pr-6">
           <Image
             src={bookcover}
