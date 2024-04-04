@@ -7,15 +7,18 @@ export default function Home() {
       <div className="text-4xl">
         <Link href={"/"}>⬅️ kavon.lol</Link>
       </div>
-      <div className="pb-8 md:flex items-center m-10 md:m-24 text-xl md:text-2xl">
-        <div className="pb-10 md:pb-0 md:pr-6">
+      <div className="hidden md: md:block pt-3">
+        <h1 className="text-[6rem] md:text-[10rem]">📕</h1>
+      </div>
+      <div className="pb-8 md:flex items-center m-10 text-xl md:text-2xl">
+        <div className="pb-10 md:w-1/2 md:pb-0 md:pr-6">
           <Image
             src={bookcover}
             className="object-fit"
             alt="Cover to Fashionably Ill"
           />
         </div>
-        <p>
+        <p className="md:w-80">
           Welcome to the weird world of Kayvon Edson. Here we have a well-to-do
           white gay boy. He was proclaimed as infamous when he took his shoes
           off, clad in all black on the Boston Marathon finish line as he
