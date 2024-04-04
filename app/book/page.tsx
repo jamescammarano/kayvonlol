@@ -7,8 +7,8 @@ export default function Home() {
       <div className="text-4xl">
         <Link href={"/"}>⬅️ kavon.lol</Link>
       </div>
-      <div className="pb-8 items-center m-10 md:m-24 text-xl md:text-2xl">
-        <div className="pb-10">
+      <div className="pb-8 md:flex items-center m-10 md:m-24 text-xl md:text-2xl">
+        <div className="pb-10 md:pb-0 md:pr-6">
           <Image
             src={bookcover}
             className="object-fit"
