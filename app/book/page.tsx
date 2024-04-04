@@ -10,7 +10,7 @@ export default function Home() {
       <div className="">
         <h1 className="text-[10rem]">📕</h1>
       </div>
-      <div className="flex pb-8 items-center gap-10 m-24 text-2xl">
+      <div className="flex pb-8 items-center gap-10 m-24 text-xl md:text-2xl">
         <h1>
           <Image src={bookcover} alt="Cover to Fashionably Ill" />
         </h1>

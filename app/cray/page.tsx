@@ -20,7 +20,7 @@ export default function Funny() {
         <h1 className="text-[6rem] md:text-[10rem]">🌪️</h1>
 
         <h1 className="text-2xl text-center pb-8 sm:px-48 md:px-64">
-          Even when homeless, Kayvon continued to make art.
+          Kayvon uses his neurodivergence as raw material for his practice.{" "}
         </h1>
       </div>
       <div className="flex flex-col gap-4">

@@ -33,7 +33,7 @@ export default function Home() {
           <h1 className="text-center text-2xl md:text-4xl font-bold">Sew</h1>
         </Link>
         <Link href={"/cray"}>
-          <p className="text-[6rem] text-center">🌪️</p>
+          <p className="text-center text-[5rem] md:text-[6rem]">🌪️</p>
           <h1 className="text-center text-2xl md:text-4xl font-bold">Cray</h1>
         </Link>
         <Link href={"/music"}>

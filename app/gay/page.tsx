@@ -15,7 +15,7 @@ export default function Funny() {
       <div className="flex flex-col items-center gap-4">
         <iframe
           className="w-80"
-          src="https://www.youtube.com/embed/nij61ulh6MQ?si=ITkAhdm3s5RXqTr4"
+          src="https://www.youtube.com/embed/NQBbqAwF8js?si=Lr2m8bKgrZ5amWo8"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -23,7 +23,7 @@ export default function Funny() {
         ></iframe>
         <iframe
           className="w-80"
-          src="https://www.youtube.com/embed/NQBbqAwF8js?si=Lr2m8bKgrZ5amWo8"
+          src="https://www.youtube.com/embed/nij61ulh6MQ?si=ITkAhdm3s5RXqTr4"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"

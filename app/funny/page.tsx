@@ -14,22 +14,26 @@ export default function Funny() {
         own discomfort.
       </h1>
       <div className="flex flex-col items-center gap-4 m-4">
-        <video className="h-[500px] object-cover" controls preload="none">
-          <source src="/videos/coolgrandma.mp4" type="video/mp4" />
+        <video
+          className="w-[300px] h-[500px] object-cover"
+          controls
+          preload="none"
+        >
+          <source src="/videos/corona.mp4" type="video/mp4" />
         </video>
         <video
           className="w-[300px] h-[500px] object-cover"
           controls
           preload="none"
         >
-          <source src="/videos/pinatajiji.mp4" type="video/mp4" />
+          <source src="/videos/rick.mp4" type="video/mp4" />
         </video>
         <video
           className="w-[300px] h-[500px] object-cover"
           controls
           preload="none"
         >
-          <source src="/videos/who.mp4" type="video/mp4" />
+          <source src="/videos/fred.mp4" type="video/mp4" />
         </video>
       </div>
     </main>
