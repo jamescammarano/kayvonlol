@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col items-center text-center justify-center">
-      <div className="text-4xl">kavon.lol</div>
+      <div className="text-4xl">kayvon.lol</div>
       <div className="pt-3 pb-5 md:pb-8">
         <Image src={main} alt="Kayvon" className="w-40 md:w-52 rounded-lg" />
       </div>

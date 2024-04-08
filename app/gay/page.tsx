@@ -4,7 +4,7 @@ export default function Funny() {
   return (
     <main className="flex flex-col items-center text-center justify-center mx-10">
       <div className="text-4xl">
-        <Link href={"/"}>⬅️ kavon.lol</Link>
+        <Link href={"/"}>⬅️ kayvon.lol</Link>
       </div>
       <div className="pt-3 md:pb-8">
         <h1 className="text-[6rem] md:text-[10rem]">🍆</h1>

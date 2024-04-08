@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center py-10">
       <div className="text-4xl">
-        <Link href={"/"}>⬅️ kavon.lol</Link>
+        <Link href={"/"}>⬅️ kayvon.lol</Link>
       </div>
       <div className="hidden md: md:block pt-3">
         <h1 className="text-[6rem] md:text-[10rem]">📕</h1>
