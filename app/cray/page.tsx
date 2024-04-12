@@ -23,9 +23,10 @@ export default function Funny() {
           Kayvon uses his neurodivergence as raw material for his practice.{" "}
         </h1>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col items-center">
         <div>
           <iframe
+            className="h-56 w-[25rem] sm:h-72 sm:w-[515px]"
             src="https://www.youtube.com/embed/-Zoi0TSiFzc?si=V0s3_K82mp1HGVlt"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

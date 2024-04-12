@@ -14,7 +14,7 @@ export default function Funny() {
       </h1>
       <div className="flex flex-col items-center gap-4">
         <iframe
-          className="w-80"
+          className="h-56 w-[25rem] sm:h-72 sm:w-[515px]"
           src="https://www.youtube.com/embed/NQBbqAwF8js?si=Lr2m8bKgrZ5amWo8"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -22,7 +22,7 @@ export default function Funny() {
           allowFullScreen
         ></iframe>
         <iframe
-          className="w-80"
+          className="h-56 w-[25rem] sm:h-72 sm:w-[515px]"
           src="https://www.youtube.com/embed/nij61ulh6MQ?si=ITkAhdm3s5RXqTr4"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -7,7 +7,7 @@ export default function Funny() {
         <Link href={"/"}>⬅️ kayvon.lol</Link>
       </div>
       <div className="pt-3 md:pb-8">
-        <h1 className="text-[6rem] md:text-[10rem]">💸</h1>
+        <h1 className="text-[6rem] md:text-[10rem]">🤡</h1>
       </div>
       <h1 className="text-2xl text-center pb-8 sm:px-48 md:px-64">
         Kayvon uses humor to explore and push social boundaries and one&apos;s

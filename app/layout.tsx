@@ -25,7 +25,7 @@ export default function RootLayout({
         {children}
         <div className="border-t-2 bg-[#FFFAFA] fixed w-full bottom-0 border-t-gray-200">
           <div className="my-2 grid grid-flow-col justify-items-center justify-evenly grid-cols-3">
-            <a href="https://www.instagram.com/kayvonedson/">
+            <a href="https://www.instagram.com/kayvon.lol/">
               <Image alt="Instagram" className="h-8 w-8" src={instagram} />
             </a>
             <a href="https://www.youtube.com/@Kayvonthefggt/videos">

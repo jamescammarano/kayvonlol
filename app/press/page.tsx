@@ -15,7 +15,7 @@ export default function Press() {
         <h1 className="text-[6rem] md:text-[10rem]">🗞️</h1>
 
         <h1 className="text-2xl text-center pb-8 sm:px-48 md:px-64">
-          Kayvon is an international artist
+          Kayvon is an international artist.
         </h1>
       </div>
       <div className="grid sm:grid-cols-2 gap-4">

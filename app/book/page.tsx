@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import bookcover from "../../public/image/bookcover.png";
+import books from "../../public/image/Group 1 (1).png";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center py-10">
@@ -29,6 +30,9 @@ export default function Home() {
           believes in making an entrance.
         </p>
       </div>
+      <a className="text-4xl" href="https://www.instagram.com/fashionablyill">
+        @fashionablyill
+      </a>{" "}
     </main>
   );
 }
